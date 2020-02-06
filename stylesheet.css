@@ -1,0 +1,198 @@
+header{
+  top:0;
+  z-index:10;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.container{
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-title{
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 3px;
+}
+
+.contents{
+  width: 100%;
+  background-color: #FFCC33		;
+  height: 800px;
+}
+
+.top{
+  width: 100%;
+  height: 80px;
+}
+
+.left-box{
+  background-color: #FFCC33	;
+  width: 50%;
+  height:80px;
+  float: left;
+}
+
+.contents ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.contents li{
+  margin-left: 40px;
+  line-height: 80px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.list:hover{
+  opacity: 0.6;
+}
+
+.right-box{
+  background-color: #FFCC33		;
+  width: 50%;
+  height:80px;
+  float: right;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.facebook {
+  background-color: black;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: black;
+  margin-right: 10px;
+}
+
+.instagram{
+  background-color: black;
+}
+
+.btn-wrapper {
+  margin: 20px 40px;
+  float: right;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.content{
+  padding: 100px 300px;
+}
+
+.sub-title {
+  margin: 0;
+  color: white;
+  letter-spacing: 20px;
+  text-align: center;
+}
+.content h2 {
+  margin: 0;
+  text-align: center;
+  line-height: 600px;
+  font-size: 120px;
+  color: white;
+  letter-spacing: 40px;
+}
+
+.contents-box{
+  background-color: black;
+  min-height: 100vh;
+}
+
+.top-box{
+  height: 600px;
+  display: flex;
+}
+
+.contents-left{
+  width: 50%;
+  height: 600px;
+}
+
+.photo1{
+  width: 100%;
+  height: 600px;
+}
+
+.contents-right{
+  width: 50%;
+  height: 600px;
+}
+
+.text-box{
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 140px;
+  text-align: center;
+}
+
+
+.black{
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+}
+
+.bottom-box{
+  height: 600px;
+  display: flex;
+}
+
+.bottom-left{
+  width: 50%;
+  height: 600px;
+}
+
+.bottom-right{
+  width: 50%;
+  height: 600px;
+  background-color: brown;
+}
+
+.photo2{
+  width: 100%;
+  height: 600px;
+}
+
+.aaaa{
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 0;
+}
+
+.footer{
+  background-color: rgba(34, 49, 52, 0.9);
+  width: 100%;
+  height: 300px;
+}
